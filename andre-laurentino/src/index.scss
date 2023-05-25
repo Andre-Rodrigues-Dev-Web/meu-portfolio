@@ -1,5 +1,16 @@
+//Vars
+:root{
+    --GreatVibes: 'Great Vibes', cursive;
+    --Kalam: 'Kalam', cursive;
+    --Montserrat: 'Montserrat', sans-serif;
+    --MrDafoe: 'MrDafoe', cursive;
+    --Roboto: 'Roboto', sans-serif;
+    --VinaSans: 'Vina Sans', cursive;
+}
+//Reset
 *{
     box-sizing: border-box;
+    font-family: var(--Montserrat);
     font-size: 100%;
     line-height: 1.5;
     margin: 0;

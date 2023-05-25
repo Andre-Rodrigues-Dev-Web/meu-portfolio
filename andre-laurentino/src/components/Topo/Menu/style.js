@@ -9,7 +9,7 @@ const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding: 20px 10px;
 `;
 
 const Logo = styled.div`
