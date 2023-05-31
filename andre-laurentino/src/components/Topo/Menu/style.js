@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const ContainerMenu = styled.nav`
     position: fixed;
+    width: 100%;
 `;
 
 const Container = styled.div`
@@ -13,7 +14,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.div`
-    position: fixed;
+    width: 20%;
     h1{
         color: #fff;
         text-transform: uppercase;
@@ -21,13 +22,23 @@ const Logo = styled.div`
 `;
 
 const LinksContainer = styled.ul`
-    position: fixed;
+   display: none;
+   @media(min-width: 48em){
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   }
 `;
 const Item = styled.li`
+    padding: 10px;
     a{
         color: #fff;
     }
+    @media(min-width: 48em){
+        padding: 0;
+    }
 `;
+
 export{
     ContainerMenu,
     Container,
